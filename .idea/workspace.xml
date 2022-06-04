@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cd81db17-9b33-4c9f-9f83-fbe570ca1175" name="Default Changelist" comment="初始化hsm auth系统">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/hms_auth_provider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-api/src/main/java/com/hms/auth/api/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-api/target/classes/com/hms/auth/api/HelloService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-api/target/hms-auth-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-common/src/main/java/com/hms/auth/common/BaseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-common/target/classes/com/hms/auth/common/BaseDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-common/target/classes/com/hms/auth/common/ResponseDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-common/target/hms-auth-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-dao/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-dao/src/main/java/com/hms/auth/dao/single/SystemResourceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-dao/src/main/resources/mapper/single/SystemResourceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-dao/target/classes/com/hms/auth/dao/single/SystemResourceMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-dao/target/classes/mapper/single/SystemResourceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-dao/target/hms-auth-dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-dao/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-domain/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-domain/target/hms-auth-domain-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-domain/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-domain/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-jmq/target/hms-auth-jmq-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-jmq/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-jmq/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-jmq/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-provider/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-provider/src/main/java/com/hms/auth/provider/HmsAuthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-provider/src/main/java/com/hms/auth/provider/config/ExceptionAdviceHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-provider/src/main/java/com/hms/auth/provider/config/RequestParamAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-provider/src/main/java/com/hms/auth/provider/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-provider/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-provider/src/main/resources/dubbo-provider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-provider/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-provider/src/test/dubbo-test-consumer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-provider/src/test/java/nansport/test/HelloTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-provider/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-provider/target/classes/com/hms/auth/provider/HmsAuthApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-provider/target/classes/com/hms/auth/provider/config/ExceptionAdviceHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-provider/target/classes/com/hms/auth/provider/config/RequestParamAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-provider/target/classes/com/hms/auth/provider/controller/HelloController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-provider/target/classes/dubbo-provider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-provider/target/classes/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-provider/target/hms-auth-provider-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-provider/target/hms-auth-provider-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-provider/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-provider/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-provider/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-provider/target/surefire-reports/TEST-nansport.test.HelloTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-provider/target/surefire-reports/nansport.test.HelloTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-provider/target/test-classes/nansport/test/HelloTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-repository/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-repository/target/hms-auth-repository-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-repository/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-repository/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-repository/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-service/target/hms-auth-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-auth-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="29wByAsNgrYaG1Mg5tv3zhobSnI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RunManager">
+    <configuration name="HmsAuthApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hms.auth.provider.HmsAuthApplication" />
+      <module name="hms-auth-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hms.auth.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="hms-auth-api" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="hms-auth-api" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HmsAuthApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd81db17-9b33-4c9f-9f83-fbe570ca1175" name="Default Changelist" comment="" />
+      <created>1654014519840</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654014519840</updated>
+    </task>
+    <task id="LOCAL-00001" summary="初始化hsm auth系统">
+      <created>1654360985195</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654360985195</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="初始化hsm auth系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化hsm auth系统" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="181" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1654273494984">
+      <screen x="0" y="23" width="1440" height="805" />
+    </state>
+    <state x="181" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.805@0.23.1440.805" timestamp="1654273494984" />
+    <state x="446" y="224" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1654355355356">
+      <screen x="0" y="23" width="1440" height="805" />
+    </state>
+    <state x="446" y="224" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.805@0.23.1440.805" timestamp="1654355355356" />
+    <state x="455" y="169" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1654264685963">
+      <screen x="0" y="23" width="1440" height="805" />
+    </state>
+    <state x="455" y="169" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.805@0.23.1440.805" timestamp="1654264685963" />
+    <state width="487" height="466" key="DebuggerActiveHint" timestamp="1654360642774">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="487" height="466" key="DebuggerActiveHint/0.23.1440.807@0.23.1440.807" timestamp="1654360642774" />
+    <state width="1358" height="296" key="GridCell.Tab.0.bottom" timestamp="1654360902504">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="1358" height="248" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1654360615642" />
+    <state width="1358" height="296" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1654360902504" />
+    <state width="1358" height="296" key="GridCell.Tab.0.center" timestamp="1654360902504">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="1358" height="248" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1654360615641" />
+    <state width="1358" height="296" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1654360902504" />
+    <state width="1358" height="296" key="GridCell.Tab.0.left" timestamp="1654360902503">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="1358" height="248" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1654360615640" />
+    <state width="1358" height="296" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1654360902503" />
+    <state width="1358" height="296" key="GridCell.Tab.0.right" timestamp="1654360902504">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="1358" height="248" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1654360615642" />
+    <state width="1358" height="296" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1654360902504" />
+    <state width="1358" height="248" key="GridCell.Tab.1.bottom" timestamp="1654360792497">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="1358" height="248" key="GridCell.Tab.1.bottom/0.23.1440.807@0.23.1440.807" timestamp="1654360792497" />
+    <state width="1358" height="248" key="GridCell.Tab.1.center" timestamp="1654360792497">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="1358" height="248" key="GridCell.Tab.1.center/0.23.1440.807@0.23.1440.807" timestamp="1654360792497" />
+    <state width="1358" height="248" key="GridCell.Tab.1.left" timestamp="1654360792496">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="1358" height="248" key="GridCell.Tab.1.left/0.23.1440.807@0.23.1440.807" timestamp="1654360792496" />
+    <state width="1358" height="248" key="GridCell.Tab.1.right" timestamp="1654360792497">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="1358" height="248" key="GridCell.Tab.1.right/0.23.1440.807@0.23.1440.807" timestamp="1654360792497" />
+    <state x="218" y="23" key="SettingsEditor" timestamp="1654359873700">
+      <screen x="0" y="23" width="1440" height="805" />
+    </state>
+    <state x="218" y="23" key="SettingsEditor/0.23.1440.805@0.23.1440.805" timestamp="1654359873700" />
+    <state x="317" y="155" key="Vcs.Push.Dialog.v2" timestamp="1654361714274">
+      <screen x="0" y="23" width="1440" height="805" />
+    </state>
+    <state x="317" y="155" key="Vcs.Push.Dialog.v2/0.23.1440.805@0.23.1440.805" timestamp="1654361714274" />
+    <state x="317" y="155" key="Vcs.Push.Dialog.v2/0.23.1440.807@0.23.1440.807" timestamp="1654360991591" />
+    <state x="431" y="315" width="615" height="490" key="find.popup" timestamp="1654359776387">
+      <screen x="0" y="23" width="1440" height="805" />
+    </state>
+    <state x="431" y="315" width="615" height="490" key="find.popup/0.23.1440.805@0.23.1440.805" timestamp="1654359776387" />
+    <state x="485" y="311" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1654361689943">
+      <screen x="0" y="23" width="1440" height="805" />
+    </state>
+    <state x="485" y="311" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.805@0.23.1440.805" timestamp="1654361689943" />
+    <state x="51" y="78" key="new project wizard" timestamp="1654014936287">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state x="51" y="78" key="new project wizard/0.23.1440.800@0.23.1440.800" timestamp="1654014936287" />
+  </component>
+</project>

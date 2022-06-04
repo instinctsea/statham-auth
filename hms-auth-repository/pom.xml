@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.hms.auth</groupId>
+        <artifactId>hms-auth</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <version>1.0-SNAPSHOT</version>
+    <groupId>com.hms.auth</groupId>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>hms-auth-repository</artifactId>
+
+
+</project>

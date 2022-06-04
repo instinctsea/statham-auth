@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="hms-auth-provider">
+    <output-path>$PROJECT_DIR$/out/artifacts/hms_auth_provider</output-path>
+    <root id="root">
+      <element id="archive" name="hms_auth_provider.jar">
+        <element id="module-output" name="hms-auth-provider" />
+      </element>
+    </root>
+  </artifact>
+</component>
