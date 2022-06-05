@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <!--全局映射器缓存-->
+        <setting name="cacheEnabled" value="true"/>
+        <!--对于未知的sql查询，允许返回不同的结果集以达到通用的效果-->
+        <setting name="multipleResultSetsEnabled" value="true"/>
+        <!--允许使用列标签代替列名-->
+        <setting name="useColumnLabel" value="true"/>
+        <!--数据库超过20秒仍未相应则超时-->
+        <setting name="defaultStatementTimeout" value="20"/>
+        <!--允许jdbc自动生成主建，并返回-->
+        <setting name="useGeneratedKeys" value="true"/>
+        <!--使用log4j2输出日志-->
+        <setting name="logImpl" value="LOG4J2"/>
+        <!--查询结果映射到对象使用_转驼峰-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+</configuration>

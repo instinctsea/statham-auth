@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="masterDataSource" class="org.apache.commons.dbcp2.BasicDataSource" destroy-method="close" lazy-init="true">
+        <property name="driverClassName" value="${single.datasource.driver-class-name}"/>
+        <property name="url" value="${single.datasource.url}"/>
+        <property name="username" value="${single.datasource.username}"/>
+        <property name="password" value="${single.datasource.password}"/>
+        <property name="defaultAutoCommit" value="true"/>
+        <property name="initialSize" value="1"/>
+        <property name="maxIdle" value="5"/>
+        <property name="minIdle" value="1"/>
+        <property name="minEvictableIdleTimeMillis" value="300000"/>
+        <property name="timeBetweenEvictionRunsMillis" value="60000"/>
+        <property name="validationQuery" value="select 'x'"/>
+        <property name="testWhileIdle" value="true"/>
+        <property name="testOnBorrow" value="false"/>
+        <property name="testOnReturn" value="false"/>
+        <property name="removeAbandonedTimeout" value="180"/>
+        <property name="logAbandoned" value="true"/>
+    </bean>
+
+    <bean id="masterTransaction" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="masterDataSource"/>
+    </bean>
+
+    <bean id="masterFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="masterDataSource"/>
+        <property name="configLocation" value="classpath:config/single-config.xml"/>
+        <property name="mapperLocations" value="classpath:mapper/single/*.xml"/>
+    </bean>
+
+    <bean id="singleTemplate" class="org.mybatis.spring.SqlSessionTemplate">
+        <constructor-arg ref="masterFactory"/>
+    </bean>
+
+    <bean id="singleScannerConfigure" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.hms.auth.dao.single"/>
+        <property name="sqlSessionTemplateBeanName" value="singleTemplate"/>
+    </bean>
+</beans>

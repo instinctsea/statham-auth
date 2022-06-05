@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping("hi")
     public ResponseDto<String> hi(){
-        return ResponseDto.success("hello,welcome to hms auth");
+        return ResponseDto.success("hello");
     }
 }

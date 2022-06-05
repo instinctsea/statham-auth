@@ -8,6 +8,7 @@ import org.springframework.context.annotation.ImportResource;
 
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 @ImportResource(value = {
+        "classpath:config/single-master-datasource.xml"
         ///"classpath:dubbo-provider.xml"
 })
 @ComponentScan(basePackages = {"com.hms.auth"})
